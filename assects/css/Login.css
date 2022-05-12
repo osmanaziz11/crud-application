@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main_container {
+  max-width: 500px !important;
+  background-color: snow;
+}
+.Login_form {
+}
+.Login_form h3 {
+  background-color: #212529;
+  color: white;
+}
+.Login_form input,
+button {
+  height: 44px;
+}
+.Login_form label,
+button {
+  font-size: 18px;
+}
+.Login_form h6 a {
+  text-decoration: none;
+  font-size: 18px;
+}
+.Login_form .errorBox {
+  height: 44px;
+  border: 1px solid rgb(243, 137, 137);
+  background-color: #f8d7da;
+}
+.Login_form .valid_errorBox {
+  height: 44px;
+  border: 1px solid rgb(74, 182, 110);
+  background-color: #72c77d;
+}

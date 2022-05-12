@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.home-btn {
+  right: 50px;
+}
+.valid {
+  height: 20px;
+  border: 1px solid rgb(74, 182, 110);
+  background-color: #72c77d;
+}
+.invalid {
+  height: 20px;
+  border: 1px solid rgb(243, 137, 137);
+  background-color: #f8d7da;
+}
+header #header a {
+  text-decoration: none;
+  color: black;
+}
+header #header {
+  background-color: rgb(32, 31, 31);
+  height: 70px;
+}
+header #header h3 {
+  color: snow;
+}
+#content .col-4 i {
+  font-size: 100px;
+}
+#content .col-4 {
+  height: 300px;
+  align-items: center;
+  justify-content: space-around;
+}
+#content .col-4 button {
+  width: 150px;
+}
+.modal-content input {
+  display: block !important;
+}

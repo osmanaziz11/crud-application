@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+header #header {
+  background-color: rgb(32, 31, 31);
+  height: 70px;
+}
+header #header a {
+  text-decoration: none;
+  color: black;
+}
+header #header h3 {
+  color: snow;
+}
+#content .col-4 i {
+  font-size: 100px;
+}
+#content .col-4 {
+  height: 300px;
+  align-items: center;
+  justify-content: space-around;
+}
+#content .col-4 button {
+  width: 150px;
+}
+#content .col-4 a {
+  text-decoration: none;
+  color: snow;
+}

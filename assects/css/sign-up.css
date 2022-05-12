@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+}
+
+header #header {
+  background-color: rgb(44, 195, 64);
+  height: 70px;
+}
+header #header h1 {
+  color: snow;
+}
+section button {
+  width: 150px !important;
+}
+#form_container {
+  width: 600px;
+}
